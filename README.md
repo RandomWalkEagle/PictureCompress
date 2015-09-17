@@ -45,5 +45,8 @@ Simple tools to compress all png or jpeg files in you folder（Lossless compress
 ----------------------------------->
 
 1、先安装wine，详细可参考https://www.winehq.org/download
-2、输入命令： source ScriptPNG.sh png目录
-   脚本会自动在png目录的同一级目录备份一份png资源
+2、输入命令： 
+   <1> source ScriptDir.sh png目录
+      脚本会自动在png目录的同一级目录备份一份png资源
+   <2> source ScriptPNG.sh 单张png图片路径
+      脚本会自动在png目录的同一级目录备份一份png资源，名称为.png.bak
